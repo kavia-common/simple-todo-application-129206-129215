@@ -1,7 +1,7 @@
 {
   "name": "remotion",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Todo Frontend (Remotion)",
   "repository": {},
   "license": "UNLICENSED",
   "private": true,
@@ -26,6 +26,7 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
+    "render:todo": "remotion render src/index.ts TodoApp out/todo.mp4",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   }
